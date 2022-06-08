@@ -5,8 +5,14 @@
 }
 
 .uno{
-background-color: #409a2d;
-color: #ffffff;
+    width: 20rem;
+    background-color: #409a2d;
+    color: #ffffff;
+}
+
+.dos{
+    width: 20rem;
+    margin-left: 2rem;
 }
 
 input{
@@ -17,4 +23,26 @@ input{
 select{
     width: 80%;
     height: 2rem;
+}
+
+.contenedor{
+    width:100%;
+}
+
+.contenido{
+    width:20%;
+    float:left;
+}
+
+.circulo{
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+    border-radius: 50%;
+    border: black 1px solid;
+}
+
+.texto{
+    font-size: larger;
+    font-weight: bolder;
 }
