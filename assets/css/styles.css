@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.card-img-top {
+  width: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 5%;
+}
+
+.uno {
+  background-color: #409a2d;
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */
