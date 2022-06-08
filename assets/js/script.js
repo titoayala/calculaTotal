@@ -6,9 +6,9 @@ function calcular() {
     var cantidad = document.querySelector("#cantidad").value;
     var quantity = document.querySelector(".cantidad");
     quantity.innerHTML = cantidad;
-    
+
     var total = document.querySelector(".total");
-    total.innerHTML = parseInt(cantidad * precio);
+    total.innerHTML = parseInt(cantidad * precio) + " CLP";
 
 
     seleccion = document.querySelector('#colores');
