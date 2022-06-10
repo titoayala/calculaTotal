@@ -8,8 +8,9 @@ function calcular() {
     quantity.innerHTML = cantidad;
 
     var total = document.querySelector(".total");
-    total.innerHTML = parseInt(cantidad * precio) + " CLP";
-
+    total.innerHTML = parseInt(cantidad * precio).toLocaleString("es-ES") + " CLP"; 
+    /*investigué esta función (.toLocaleString("es-ES")) para darle formato al número!, 
+    supongo existe otra manera */
 
     seleccion = document.querySelector('#colores');
     color = document.querySelector('.circulo');

@@ -19,10 +19,12 @@ input{
     width: 80%;
     height: 2rem;
     margin: 5% 0;
+    border-radius: 10px;
 }
 select{
     width: 80%;
     height: 2rem;
+    border-radius: 10px;
 }
 
 .contenedor{
@@ -30,7 +32,7 @@ select{
 }
 
 .contenido{
-    width:20%;
+    width: auto;
     float:left;
 }
 
@@ -45,4 +47,5 @@ select{
 .texto{
     font-size: larger;
     font-weight: bolder;
+    margin-right: 5%;
 }
